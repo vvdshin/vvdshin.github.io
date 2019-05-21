@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato', 'sans-serf';
+    background-color: #f8f8f8;
+    font-size: 1.4rem;
+}
+
+
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #292929;
+    z-index: 100;
+    height: 51px;
+    min-width: 1333px;
+}
+
+.navbar-items {
+    text-align: center;
+    padding: 0;
+}
+
+.navbar-items li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 30px;
+    font-size: 20px;
+}
+
+.my-hamburger {
+    display: none;
+}
+
+.navbar-mobile {
+    display: none;
+    position: fixed;
+    height: 100vh;
+    width: 80vw;
+    z-index: 100;
+    background-color: #292929;
+}
+
+.navbar-mobile-items {
+    
+}
+
+.navbar-mobile-items li {
+    list-style: none;
+}
+
+.navbar-items li a,
+.navbar-items li a:visited,
+.navbar-mobile-items li a,
+.navbar-mobile-items li a:visited {
+    text-decoration: none;
+    color: #f8f8f8;;
+    padding: 5px 15px;
+    margin: 0;
+}
+
+.navbar-items li a:hover {
+    color: black;
+    background: #f8f8f8;;
+}
+
+.banner {
+    position: relative;
+    top: 51px;
+    background-image: url("images/mountain-1.jpg");
+    background-size: 100% auto;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: calc(100vh - 51px);
+    min-width: 1333px;
+    font-family: 'Playfair Display', serif;
+}
+
+.banner-container {
+    position: relative;
+    top: 120px;
+    text-align: center;
+}
+
+.banner-container h1 {
+    margin: 0 auto;
+    color: #f8f8f8;
+    font-size: 150px;
+}
+
+.banner-container h2 {
+    margin: 0 auto;
+    color: #f8f8f8;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.about-section {
+    padding-top: 51px;
+
+} 
+.about-section > h1 {
+    text-align: center;
+    background: #85c6d3;
+    color: #292929;
+    font-size: 40px;
+    margin: 0 0;
+    font-weight: normal;
+}
+
+.personal-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 90%;
+    padding-top: 30px;
+}
+
+.paragraph-container > .hello {
+    font-style: italic;
+    font-size: 1.7rem;
+}
+
+.paragraph-container .finish {
+    font-size: 1.7rem;
+}
+
+.paragraph-container {
+    font-size: 1.4rem;
+    color: #3f3f3f;
+    width: 60%;
+}
+
+.profile-photo {
+    width: 300px;
+    height: 300px;
+    filter: grayscale(25%);
+    border-radius: 50%;
+    margin: 0;
+}
+
+.skills-content {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: #f8f8f8;
+    background-color: #444444;
+}
+
+.skills-box h1 {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.skills-box ul{
+    list-style: none;
+    padding: 0;
+}
+
+.skills-box {
+    font-size: 1.4rem;
+}
+
+.projects-section {
+    padding-top: 51px;
+}
+
+.projects-section > h1{
+    text-align: center;
+    background: #bdbdbd;
+    color: #f8f8f8;
+    font-size: 40px;
+    margin: 0 0;
+    font-weight: normal;
+}
+
+.projects-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.project-box {
+    flex-basis: 45%;
+}
+
+.contact-footer {
+    height: 500px;
+    text-align: center;
+    background-color: #6AA3B6;
+    color: #f8f8f8;
+}
+
+.contact-footer-container {
+    position: relative;
+    top: 200px;
+}
+
+.contact-footer-container h1{
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.contact-footer-container h2{
+    font-size: 20px;
+    font-weight: normal;
+}
